@@ -1,25 +1,24 @@
-# sql-retail_sales-project1
+## sql-retail_sales-project1
 
 '''sql
-
 create table retail_sales
-				(
-					transactions_id	int primary key,
-					sale_date date,
-					sale_time time,	
-					customer_id	int,
-					gender varchar(15),
-					age	int,
-					category varchar(15),	
-					quantiy	int,
-					price_per_unit	float,
-					cogs float,
-					total_sale float
-				);
+(
+	transactions_id	int primary key,
+	sale_date date,
+	sale_time time,	
+	customer_id	int,
+	gender varchar(15),
+	age	int,
+	category varchar(15),	
+	quantiy	int,
+	price_per_unit	float,
+	cogs float,
+	total_sale float
+);
 '''
 
 **Data Cleaning**
-"""sql
+'''sql
 delete from retail_sales
 where 
 transactions_id is null
