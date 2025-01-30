@@ -1,6 +1,7 @@
 # sql-retail_sales-project1
 
 '''sql
+
 create table retail_sales
 				(
 					transactions_id	int primary key,
